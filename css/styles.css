@@ -1,0 +1,165 @@
+body {
+  background-color: #af5978;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1em;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 50%;
+  height: 50vh;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #af5978;
+  border-radius: 2em;
+  padding: 1em;
+  list-style-type: none;
+  text-decoration: none;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: background 0.1s ease;
+
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  background-color: #d77197;
+  border-radius: 2em;
+  padding: 1em;
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+ul {
+  justify-content: left;
+  color: #ffffff;
+  list-style-type: none;
+  line-height: 25px;
+
+}
+
+p {
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
+
+img {
+  max-width: 450px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  border-radius: 1em;
+}
+
+video {
+  max-width: 450px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 1em;
+}
+
+figcaption {
+  color: #af5978;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  padding: 2em;
+}
+
+.american {
+  max-width: 1000px;
+}
+
+.wedding {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.styling {
+  color: #af5978;
+}
+
+.pov {
+  color: #ffff;
+}
+
+.verhuur {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.babyfeest {
+  color: #af5978;
+}
+
+.artikelen {
+  color: #af5978;
+}
+
+.bloem {
+  color: #ffffff;
+}
+
+.social {
+  text-align: center;
+  color: #ffffff;
+  list-style-type: none;
+  line-height: 25px;
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 1em;
+}
+
+footer p {
+  background-color: #ffffff;
+  color: #af5978;
+}
